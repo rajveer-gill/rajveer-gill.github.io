@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d7c1 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #main {
+            margin-top: 20px;
+        }
+        .box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+            background: #fff;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .box img {
+            width: 90px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>My Personal Website</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Hello, I'm [Your Name]</h1>
+            <p>A passionate developer with a love for technology and innovation.</p>
+        </div>
+    </section>
+
+    <section id="main" class="container">
+        <h2 id="skills">Technical Skills and Interests</h2>
+        <div class="box">
+            <h3>Programming Languages</h3>
+            <p>Python, JavaScript, Java, C++</p>
+        </div>
+        <div class="box">
+            <h3>Frameworks and Tools</h3>
+            <p>React, Node.js, Django, Flask</p>
+        </div>
+        <div class="box">
+            <h3>Interests</h3>
+            <p>Machine Learning, Web Development, Open Source</p>
+        </div>
+        
+        <h2 id="projects">Highlighted Projects</h2>
+        <div class="box">
+            <h3>Project One</h3>
+            <p><a href="https://github.com/username/project-one">GitHub Link</a></p>
+            <p>A brief description of Project One.</p>
+        </div>
+        <div class="box">
+            <h3>Project Two</h3>
+            <p><a href="https://github.com/username/project-two">GitHub Link</a></p>
+            <p>A brief description of Project Two.</p>
+        </div>
+        <div class="box">
+            <h3>Project Three</h3>
+            <p><a href="https://github.com/username/project-three">GitHub Link</a></p>
+            <p>A brief description of Project Three.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Contact me at <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </footer>
+</body>
+</html>
+
