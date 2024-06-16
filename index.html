@@ -69,9 +69,12 @@
         }
         #main {
             margin-top: 20px;
+        }
+        .box-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
+            margin-bottom: 50px; /* Added margin to create separation */
         }
         .box {
             width: 30%;
@@ -122,34 +125,38 @@
 
     <section id="main" class="container">
         <h2 id="skills">Technical Skills and Interests</h2>
-        <div class="box">
-            <h3>Programming Languages</h3>
-            <p>Python, JavaScript, Java, C++, C#, C, CSS, HTML, Swift, SwiftUI</p>
-        </div>
-        <div class="box">
-            <h3>Frameworks and Tools</h3>
-            <p>React, Node.js, Django, Flask</p>
-        </div>
-        <div class="box">
-            <h3>Interests</h3>
-            <p>Machine Learning, Web Development, Application Development</p>
+        <div class="box-container">
+            <div class="box">
+                <h3>Programming Languages</h3>
+                <p>Python, JavaScript, Java, C++, C#, C, CSS, HTML, Swift, SwiftUI</p>
+            </div>
+            <div class="box">
+                <h3>Frameworks and Tools</h3>
+                <p>React, Node.js, Django, Flask</p>
+            </div>
+            <div class="box">
+                <h3>Interests</h3>
+                <p>Machine Learning, Web Development, Application Development</p>
+            </div>
         </div>
 
         <h2 id="projects">Highlighted Projects</h2>
-        <div class="box">
-            <h3>Project 1</h3>
-            <p><a href="https://github.com/rajveer-gill/earthquakes-grades-graphs">GitHub Link</a></p>
-            <p>The code is able to accumulate data from a foreign file and graph its data after converting the data into clusters. I built this project to help develop my skills on dictionary usage through functions, file access, and graphing.</p>
-        </div>
-        <div class="box">
-            <h3>Project Two</h3>
-            <p><a href="https://github.com/rajveer-gill/Trivia-App">GitHub Link</a></p>
-            <p>This is a small project that I created that tests your trivia knowledge! The categories of the questions vary from science, history, technology, etc. I created this app to help me understand Swift more and learn the language. Enjoy!</p>
-        </div>
-        <div class="box">
-            <h3>Project Three</h3>
-            <p><a href="https://github.com/rajveer-gill/SipSap">GitHub Link</a></p>
-            <p>This was the first app I developed for public use. This app creates a queue for drinks at a bar and allows the store owner to add their own merchandise to the store's virtual menu.</p>
+        <div class="box-container">
+            <div class="box">
+                <h3>Project 1</h3>
+                <p><a href="https://github.com/rajveer-gill/earthquakes-grades-graphs">GitHub Link</a></p>
+                <p>The code is able to accumulate data from a foreign file and graph its data after converting the data into clusters. I built this project to help develop my skills on dictionary usage through functions, file access, and graphing.</p>
+            </div>
+            <div class="box">
+                <h3>Project Two</h3>
+                <p><a href="https://github.com/rajveer-gill/Trivia-App">GitHub Link</a></p>
+                <p>This is a small project that I created that tests your trivia knowledge! The categories of the questions vary from science, history, technology, etc. I created this app to help me understand Swift more and learn the language. Enjoy!</p>
+            </div>
+            <div class="box">
+                <h3>Project Three</h3>
+                <p><a href="https://github.com/rajveer-gill/SipSap">GitHub Link</a></p>
+                <p>This was the first app I developed for public use. This app creates a queue for drinks at a bar and allows the store owner to add their own merchandise to the store's virtual menu.</p>
+            </div>
         </div>
     </section>
 
